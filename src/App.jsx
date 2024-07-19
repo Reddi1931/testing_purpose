@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Table from '.'
 import ContactForm from './ContactForm'
+import Helloworld from './Helloworld'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <ContactForm/>
+      <Helloworld/>
     </>
   )
 }
